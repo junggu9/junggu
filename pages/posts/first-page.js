@@ -2,6 +2,7 @@ import Link from 'next/link'
 export default function FirstPage() {
     return (
         <div>
+            <Link href="/">Back to home</Link>
             <h1>내가 제일 좋아하는 음식은?</h1>
             <ol>
                 <li><h2>피자</h2></li>
